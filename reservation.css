@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #a1a4a5;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.container1 .form-label {
+    font-size: 0.875rem;
+    color: #000000;
+}
+
+.container1 .form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #d4d2d2;
+    color: #2c3e50;
+}
+
+.container1 .form-control:focus {
+    border-color: #3c4449;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.container1 textarea.form-control {
+    background-color: #868686;
+    color: #15191d;
+}
+
+.container1 textarea.form-control:focus {
+    border-color: #2a3b46;
+    box-shadow: 0 0 0 2px rgba(105, 123, 134, 0.2);
+}
+
+.container1 button.submit-button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #1d4a68;
+    color: #777777;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.container1 button.submit-button:hover {
+    background-color: #1c3241;
+}
+
+.container1 button.submit-button:active {
+    background-color: #30424e;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+}
